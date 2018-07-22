@@ -1,0 +1,24 @@
+{
+	"extends": "tslint:recommended",
+
+	"rules": {
+		"callable-types": false,
+		"indent": [true, "tabs"],
+		"interface-name": [true, "never-prefix"],
+		"max-line-length": false,
+		"newline-before-return": true,
+		"no-console": false,
+		"no-empty-interface": false,
+		"no-empty": false,
+		"no-shadowed-variable": false,
+		"no-string-literal": false,
+		"object-literal-key-quotes": [true, "consistent"],
+		"object-literal-sort-keys": false,
+		"only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+		"ordered-imports": [true, {"import-sources-order": "any", "named-imports-order": "any"}],
+		"prefer-const": true,
+		"quotemark": [true, "double"],
+		"space-before-function-paren": [true, {"anonymous": "always", "asyncArrow": "always", "constructor": "never", "method": "never", "named": "never"}],
+		"space-within-parens": 0
+	}
+}
